@@ -49,8 +49,9 @@
         <div class="col-sm-5 left-wrapper">
           <div class="event-banner-wrapper">
             <div class="logo">
-              <h1></h1>
+              <h1>ᗰᗩITᖇᗩY ᔕᑌTᕼᗩᖇ</h1>
             </div>
+            <p class="copyright">© 2014-2019 <a href="mailto:maitraysuthar@gmail.com">Maitray Suthar</a>, All rights reserved.</p>
           </div>
         </div>
         <div class="col-sm-7 right-wrapper">
@@ -61,11 +62,11 @@
                 <li role="presentation" class="tab-controll active"><a href="#hi" aria-controls="hi" role="tab" data-toggle="tab">Hi!</a></li>
                 <li role="presentation" class="tab-controll"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
                 <li role="presentation" class="tab-controll"><a href="#skills" aria-controls="skills" role="tab" data-toggle="tab">Skills</a></li>
-                <!-- <li role="presentation" class="tab-controll"><a href="#venue" aria-controls="venue" role="tab" data-toggle="tab">Venue</a></li> -->
+                <li role="presentation" class="tab-controll"><a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contact Me</a></li>
               </ul>
 
               <!-- Tab panes -->
-              <div class="tab-content">
+              <div class="tab-content scrollbar" id="style-1">
                 <div role="tabpanel" class="tab-pane fade in active show" id="hi">
                   <div class="row">
                     <div class="col-md-12">
@@ -391,13 +392,44 @@
                     </div>
                   </div>
                 </div>
-                <!-- <div role="tabpanel" class="tab-pane fade" id="venue">
-                  <h4> Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit,<br> sed do eiusmod<br> Pune 411058</h4>
-                  <br>
-                  <iframe src="https://www.google.com/maps/d/embed?mid=1UMEBYRnM0KZhrhqikVv3YigwUd0" width="640" height="300"></iframe>
-                </div> -->
+                <div role="tabpanel" class="tab-pane fade fs-20" id="contact">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h1 class="mb-5 page-title"><i>Get in Touch!</i></h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p>Let's get in touch, share your thoughts/ideas with me and I try to make something workable. You can send me an email on <a href="mailto:maitraysuthar@gmail.com" class="contact-email">maitraysuthar@gmail.com</a>.</p>
+                      <p>&nbsp;</p>
+                      <p>For more details:</p>
+                      <p><a href="files/maitray_clean_resume_updated_08-09-2019.pdf" target="_blank" class="btn btn-info">Download my Resume!</a></p>
+                      <p>&nbsp;</p>
+                      <p>Connect with me on Social:</p>
+                      <p>
+                        <div class="d-flex flex-row mb-3">
+                          <div class="p-2"></div>
+                          <div class="p-2 align-items-center">
+                            <a href="https://www.linkedin.com/in/maitray-suthar-210b1575/" target="_blank">
+                              <i class="fab fa-linkedin linked-in"></i> <strong style="color: black">Linkedin</strong>
+                            </a>
+                          </div>
+                          <div class="p-2 align-items-center">
+                            <a href="https://github.com/maitraysuthar" target="_blank">
+                              <i class="fab fa-github github"></i> <strong style="color: black">GitHub</strong>
+                            </a>
+                          </div>
+                          <div class="p-2 align-items-center">
+                            <a href="https://www.facebook.com/maitray.suthar" target="_blank">
+                              <i class="fab fa-facebook-square facebook"></i> <strong style="color: black">Facebook</strong>
+                            </a>
+                          </div>
+                        </div>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -412,6 +444,24 @@
     -->    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="js/allscript.js"></script>
+    <script>
+      if (window.innerWidth > 700 && window.screen.orientation.angle == 0){
+        var PleaseRotateOptions = {
+            onlyMobile: true,
+            forcePortrait: false,
+            allowClickBypass: false,
+            subMessage: "",
+        }
+      }else{
+        var PleaseRotateOptions = {
+            onlyMobile: true,
+            forcePortrait: true,
+            allowClickBypass: false,
+            subMessage: "",
+        }
+      }
+    </script>
+    <script src="js/pleaserotate.min.js"></script>
   </body>
 
   </html>

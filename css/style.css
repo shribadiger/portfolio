@@ -268,7 +268,6 @@ ul.social li a div:hover {
 
 .page-title {
   color: black;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
@@ -292,4 +291,46 @@ ul.social li a div:hover {
 .badge-adjust {
     border-radius: 15px;
     font-weight: bold;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+html {
+    height: 100vh; /* set viewport constraint */
+    min-height: 100%; /* enforce height */
+}
+
+.contact-email {
+    font-style: italic;
+    font-weight: 600;
+    color: #D41;
+}
+
+p.copyright {
+    position: absolute;
+    color: #fff;
+    line-height: 40px;
+    font-size: 1em;
+    text-align: left;
+    bottom:0;
 }
